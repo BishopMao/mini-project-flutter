@@ -1,0 +1,26 @@
+name: flutter_application_1
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add other dependencies here
+  shared_preferences: ^2.0.15 # Example dependency
+  google_fonts: ^4.0.3  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/3334570.png
+    - assets/680234.png
+    - assets/me.png
